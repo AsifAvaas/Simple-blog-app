@@ -69,6 +69,7 @@ function Signup() {
         </div>
         <button type="submit">Signup</button>
       </form>
+      <div>This is the edited signup page from branch 1</div>
     </div>
   );
 }

@@ -50,6 +50,7 @@ function Login() {
         </div>
         <button type="submit">Login</button>
       </form>
+      <div>This is the modified login page in branch 2</div>
     </div>
   );
 }

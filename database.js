@@ -9,6 +9,7 @@ const MongDB = async () => {
 
     } catch (error) {
         console.log("connection failed")
+        console.log(error)
         process.exit(1)
     }
 }

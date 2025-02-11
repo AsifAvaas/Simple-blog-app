@@ -61,7 +61,7 @@ router.get("/search", async (req, res) => {
         // Configure Fuse.js for fuzzy searching
         const fuse = new Fuse(formattedBlogs, {
             keys: ["title", "author", "description"],
-            threshold: 0.5, // Adjust for better matching (0 = strict, 1 = loose)
+            threshold: 0.3, // Adjust for better matching (0 = strict, 1 = loose)
             findAllMatches: true, // Allow partial matches
             ignoreLocation: true, // Ignore exact word positioning
             includeScore: true, // Helps debug the search ranking

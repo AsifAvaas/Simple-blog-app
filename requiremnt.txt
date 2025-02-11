@@ -1,1 +1,2 @@
 npm install fuse.js
+npm install leaflet leaflet.heat
